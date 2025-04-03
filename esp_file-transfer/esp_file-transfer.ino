@@ -17,8 +17,10 @@ HardwareSerial mySerial(1);  // UART instance (UART1, TX=17, RX=16)
 
 // Function to handle file upload and transfer it over UART
 void handleFileUpload(AsyncWebServerRequest *request, const String& filename, size_t index, uint8_t *data, size_t len, bool final) {
-  //mySerial.write(data, len);  // Send the received chunk over UART
-  Serial.write(data, len);
+  mySerial.write(data, len);  // Send the received chunk over UART
+  
+  // Used to verify if .bin file was received or not.
+  //Serial.write(data, len);
 
   if (final) {
     Serial.println("\n");
