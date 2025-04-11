@@ -23,7 +23,7 @@
 
 3. **Set up the environment**  
    ```bash
-   . export.sh
+   . ./export.sh
    ```
 
 ---
