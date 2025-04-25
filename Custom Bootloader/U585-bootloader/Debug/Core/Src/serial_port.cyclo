@@ -1,0 +1,3 @@
+../Core/Src/serial_port.c:12:9:boot_verify_crc	3
+../Core/Src/serial_port.c:32:17:get_inactive_bank_base	4
+../Core/Src/serial_port.c:47:9:update_firmware	7
