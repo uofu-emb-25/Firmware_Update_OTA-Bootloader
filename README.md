@@ -94,5 +94,5 @@ The primary goal is to showcase a robust custom bootloader that:
 ## 📹 Demo Video
 
 See the live demo: 
-[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+[![Watch Demo](https://github.com/uofu-emb-25/Firmware_Update_OTA-Bootloader/blob/main/PXL_20250425_171607655.TS%20(1).mp4)
 
