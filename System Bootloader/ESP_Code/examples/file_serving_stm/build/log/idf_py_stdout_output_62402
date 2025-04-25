@@ -1,0 +1,717 @@
+Command: /Users/varunbhavya/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/varunbhavya/esp-idf/tools/idf_monitor.py -p /dev/tty.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/varunbhavya/Documents/Embedded System Design/Project/Firmware_Update_OTA-Bootloader/ESP_Code/examples/file_serving_stm/build/file_server_stm.elf /Users/varunbhavya/Documents/Embedded System Design/Project/Firmware_Update_OTA-Bootloader/ESP_Code/examples/file_serving_stm/build/bootloader/bootloader.elf -m '/Users/varunbhavya/.espressif/python_env/idf5.5_py3.13_env/bin/python' '/Users/varunbhavya/esp-idf/tools/idf.py' '-p' '/dev/tty.usbserial-0001'
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ned from app_main()
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6364
+ho 0 tail 12 room 4
+load:0x40078000,len:15880
+ho 0 tail 12 room 4
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (31) boot: ESP-IDF v5.5-dev-2916-g1c468f6825 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Apr 10 2025 20:09:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (34) boot: chip revision: v1.1[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (40) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (47) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (80) boot:  3 storage          Unknown data     01 82 00110000 000f0000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (90) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=205d8h (132568) map[0m
+[0;32mI (143) esp_image: segment 1: paddr=00030600 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00030624 vaddr=3ffb0000 size=03f30h ( 16176) load[0m
+[0;32mI (153) esp_image: segment 3: paddr=0003455c vaddr=40080000 size=0babch ( 47804) load[0m
+[0;32mI (173) esp_image: segment 4: paddr=00040020 vaddr=400d0020 size=96900h (616704) map[0m
+[0;32mI (384) esp_image: segment 5: paddr=000d6928 vaddr=4008babc size=0cc98h ( 52376) load[0m
+[0;32mI (416) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (416) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (435) app_init: Project name:     file_server_stm[0m
+[0;32mI (440) app_init: App version:      da136ba-dirty[0m
+[0;32mI (444) app_init: Compile time:     Apr 10 2025 20:09:01[0m
+[0;32mI (450) app_init: ELF file SHA256:  283730276...[0m
+[0;32mI (454) app_init: ESP-IDF:          v5.5-dev-2916-g1c468f6825[0m
+[0;32mI (459) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (463) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (467) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (471) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (477) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (482) heap_init: At 3FFB8018 len 00027FE8 (159 KiB): DRAM[0m
+[0;32mI (488) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (493) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (499) heap_init: At 40098754 len 000078AC (30 KiB): IRAM[0m
+[0;32mI (505) spi_flash: detected chip: generic[0m
+[0;32mI (507) spi_flash: flash io: dio[0m
+[0;32mI (512) main_task: Started on CPU0[0m
+[0;32mI (522) main_task: Calling app_main()[0m
+[0;32mI (552) example_connect: Start example_connect.[0m
+[0;32mI (562) wifi:wifi driver task: 3ffbfcb0, prio:23, stack:6656, core=0[0m
+[0;32mI (572) wifi:wifi firmware version: a017748[0m
+[0;32mI (572) wifi:wifi certification version: v7.0[0m
+[0;32mI (572) wifi:config NVS flash: enabled[0m
+[0;32mI (572) wifi:config nano formatting: disabled[0m
+[0;32mI (582) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (582) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (592) wifi:Init management short buffer num: 32[0m
+[0;32mI (592) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (592) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (602) wifi:Init static rx buffer num: 10[0m
+[0;32mI (602) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (612) wifi_init: rx ba win: 6[0m
+[0;32mI (612) wifi_init: accept mbox: 6[0m
+[0;32mI (612) wifi_init: tcpip mbox: 32[0m
+[0;32mI (622) wifi_init: udp mbox: 6[0m
+[0;32mI (622) wifi_init: tcp mbox: 6[0m
+[0;32mI (622) wifi_init: tcp tx win: 5760[0m
+[0;32mI (622) wifi_init: tcp rx win: 5760[0m
+[0;32mI (632) wifi_init: tcp mss: 1440[0m
+[0;32mI (632) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (632) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (642) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+[0;32mI (732) wifi:mode : sta (3c:8a:1f:d4:01:c0)[0m
+[0;32mI (732) wifi:enable tsf[0m
+[0;32mI (732) example_connect: Connecting to home305...[0m
+[0;33mW (742) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (742) example_connect: Waiting for IP(s)[0m
+[0;32mI (3402) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3402) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3412) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3422) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3442) wifi:connected with home305, aid = 4, channel 1, BW20, bssid = 70:58:a4:b2:1a:99[0m
+[0;32mI (3442) wifi:security: WPA2-PSK, phy: bgn, rssi: -28[0m
+[0;32mI (3442) wifi:pm start, type: 1[0m
+
+[0;32mI (3442) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3462) wifi:<ba-add>idx:0 (ifx:0, 70:58:a4:b2:1a:99), tid:6, ssn:2, winSize:64[0m
+[0;32mI (3492) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (4472) esp_netif_handlers: example_netif_sta ip: 192.168.1.220, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (4472) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.1.220[0m
+[0;32mI (4542) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:3e8a:1fff:fed4:01c0, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4542) example_common: Connected to example_netif_sta[0m
+[0;32mI (4552) example_common: - IPv4 address: 192.168.1.220,[0m
+[0;32mI (4552) example_common: - IPv6 address: fe80:0000:0000:0000:3e8a:1fff:fed4:01c0, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4562) : stm_pro_mode (initSPIFFS:25) Initializing SPIFFS[0m
+[0;32mI (4642) : stm_pro_mode (initSPIFFS:64) Partition size: total: 896321, used: 9538[0m
+[0;32mI (4642) FILE_SERVER_HTTP: Starting HTTP Server[0m
+[0;32mI (4652) : stm_pro_mode (initFlashUART:20) Initialized Flash UART[0m
+[0;32mI (4652) main_task: Returned from app_main()[0m
+[0;32mI (5572) wifi:<ba-add>idx:1 (ifx:0, 70:58:a4:b2:1a:99), tid:0, ssn:0, winSize:64[0m
+[0;32mI (7542) example_connect: Got IPv6 event: Interface "example_netif_sta" address: 2605:a601:a9e5:1100:3e8a:1fff:fed4:01c0, type: ESP_IP6_ADDR_IS_GLOBAL[0m
+[0;32mI (29882) FILE_SERVER_HTTP: Found file : blink_led.bin (9148 bytes)[0m
+[0;32mI (34832) : stm_pro_mode (initGPIO:75) GPIO Initialized[0m
+[0;32mI (34832) : stm_flash (flashSTM:83) Writing STM32 Memory[0m
+[0;32mI (34832) : stm_flash (writeTask:7) Write Task[0m
+[0;32mI (34842) : stm_pro_mode (resetSTM:80) Starting RESET Procedure[0m
+[0;32mI (35442) : stm_pro_mode (resetSTM:87) Finished RESET Procedure[0m
+[0;32mI (35442) : stm_pro_mode (cmdSync:113) SYNC[0m
+[1;31mE (35502) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[0;32mI (35502) : stm_pro_mode (cmdGet:122) GET[0m
+[1;31mE (35562) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[0;32mI (35562) : stm_pro_mode (cmdVersion:131) GET VERSION & READ PROTECTION STATUS[0m
+[1;31mE (35632) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[0;32mI (35632) : stm_pro_mode (cmdId:140) CHECK ID[0m
+[1;31mE (35692) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[0;32mI (35702) : stm_pro_mode (cmdErase:148) ERASE MEMORY[0m
+[1;31mE (35762) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[0;32mI (35762) : stm_pro_mode (cmdExtErase:165) EXTENDED ERASE MEMORY[0m
+[1;31mE (35832) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[0;32mI (35832) : stm_flash (writeTask:19) Writing block: 1[0m
+[0;32mI (35832) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (35832) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[1;31mE (35902) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[1;31mE (35962) : stm_pro_mode (sendBytes:231) Serial Timeout[0m
+[1;31mE (36042) : stm_pro_mode (flashPage:320) Serial Timeout[0m
+[0;32mI (36042) : stm_flash (flashSTM:94) Ending Connection[0m
+[0;32mI (36042) : stm_pro_mode (resetSTM:80) Starting RESET Procedure[0m
+[0;32mI (36642) : stm_pro_mode (resetSTM:87) Finished RESET Procedure[0m
+[0;32mI (36642) : stm_pro_mode (endConn:97) Ending Connection[0m
+[0;32mI (36642) : stm_flash (flashSTM:97) Closing file[0m
+[1;31mE (36642) : FILE_SERVER_HTTP (flash_post_handler:444) Target flashing failed[0m
+[0;32mI (36802) FILE_SERVER_HTTP: Found file : blink_led.bin (9148 bytes)[0m
+[0;32mI (88492) : stm_pro_mode (initGPIO:75) GPIO Initialized[0m
+[0;32mI (88492) : stm_flash (flashSTM:83) Writing STM32 Memory[0m
+[0;32mI (88492) : stm_flash (writeTask:7) Write Task[0m
+[0;32mI (88492) : stm_pro_mode (resetSTM:80) Starting RESET Procedure[0m
+[0;32mI (89102) : stm_pro_mode (resetSTM:87) Finished RESET Procedure[0m
+[0;32mI (89102) : stm_pro_mode (cmdSync:113) SYNC[0m
+[0;32mI (89102) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89102) : stm_pro_mode (cmdGet:122) GET[0m
+[0;32mI (89112) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89112) : stm_pro_mode (cmdVersion:131) GET VERSION & READ PROTECTION STATUS[0m
+[0;32mI (89122) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89122) : stm_pro_mode (cmdId:140) CHECK ID[0m
+[0;32mI (89132) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89132) : stm_pro_mode (cmdErase:148) ERASE MEMORY[0m
+[1;31mE (89132) : stm_pro_mode (sendBytes:225) Sync Failure[0m
+[0;32mI (89142) : stm_pro_mode (cmdExtErase:165) EXTENDED ERASE MEMORY[0m
+[0;32mI (89142) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89172) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89172) : stm_flash (writeTask:19) Writing block: 1[0m
+[0;32mI (89172) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89182) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89182) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89192) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89222) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89222) : stm_flash (writeTask:19) Writing block: 2[0m
+[0;32mI (89232) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89232) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89232) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89242) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89282) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89282) : stm_flash (writeTask:19) Writing block: 3[0m
+[0;32mI (89282) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89282) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89282) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89292) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89332) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89332) : stm_flash (writeTask:19) Writing block: 4[0m
+[0;32mI (89332) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89332) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89342) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89342) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89382) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89382) : stm_flash (writeTask:19) Writing block: 5[0m
+[0;32mI (89382) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89382) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89392) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89392) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89432) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89432) : stm_flash (writeTask:19) Writing block: 6[0m
+[0;32mI (89432) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89432) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89442) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89442) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89482) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89482) : stm_flash (writeTask:19) Writing block: 7[0m
+[0;32mI (89482) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89482) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89492) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89492) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89532) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89532) : stm_flash (writeTask:19) Writing block: 8[0m
+[0;32mI (89532) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89542) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89542) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89552) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89582) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89582) : stm_flash (writeTask:19) Writing block: 9[0m
+[0;32mI (89582) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89592) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89592) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89602) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89632) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89642) : stm_flash (writeTask:19) Writing block: 10[0m
+[0;32mI (89642) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89642) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89642) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89652) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89692) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89692) : stm_flash (writeTask:19) Writing block: 11[0m
+[0;32mI (89692) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89692) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89702) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89702) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89742) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89742) : stm_flash (writeTask:19) Writing block: 12[0m
+[0;32mI (89742) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89742) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89752) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89752) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89792) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89792) : stm_flash (writeTask:19) Writing block: 13[0m
+[0;32mI (89792) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89792) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89802) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89802) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89842) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89842) : stm_flash (writeTask:19) Writing block: 14[0m
+[0;32mI (89842) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89842) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89852) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89852) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89892) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89892) : stm_flash (writeTask:19) Writing block: 15[0m
+[0;32mI (89892) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89892) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89902) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89912) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89942) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89942) : stm_flash (writeTask:19) Writing block: 16[0m
+[0;32mI (89942) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (89952) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (89952) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89962) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (89992) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (89992) : stm_flash (writeTask:19) Writing block: 17[0m
+[0;32mI (89992) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90002) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90002) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90012) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90042) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90052) : stm_flash (writeTask:19) Writing block: 18[0m
+[0;32mI (90052) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90052) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90052) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90062) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90102) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90102) : stm_flash (writeTask:19) Writing block: 19[0m
+[0;32mI (90102) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90102) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90112) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90112) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90152) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90152) : stm_flash (writeTask:19) Writing block: 20[0m
+[0;32mI (90152) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90152) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90162) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90162) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90202) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90202) : stm_flash (writeTask:19) Writing block: 21[0m
+[0;32mI (90202) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90202) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90212) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90212) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90252) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90252) : stm_flash (writeTask:19) Writing block: 22[0m
+[0;32mI (90252) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90252) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90262) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90272) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90302) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90302) : stm_flash (writeTask:19) Writing block: 23[0m
+[0;32mI (90302) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90312) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90312) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90322) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90352) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90352) : stm_flash (writeTask:19) Writing block: 24[0m
+[0;32mI (90352) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90362) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90362) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90372) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90402) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90402) : stm_flash (writeTask:19) Writing block: 25[0m
+[0;32mI (90402) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90412) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90412) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90422) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90462) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90462) : stm_flash (writeTask:19) Writing block: 26[0m
+[0;32mI (90462) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90462) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90472) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90472) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90512) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90512) : stm_flash (writeTask:19) Writing block: 27[0m
+[0;32mI (90512) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90512) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90522) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90522) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90562) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90562) : stm_flash (writeTask:19) Writing block: 28[0m
+[0;32mI (90562) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90562) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90572) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90572) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90612) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90612) : stm_flash (writeTask:19) Writing block: 29[0m
+[0;32mI (90612) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90612) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90622) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90622) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90662) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90662) : stm_flash (writeTask:19) Writing block: 30[0m
+[0;32mI (90662) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90662) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90672) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90682) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90712) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90712) : stm_flash (writeTask:19) Writing block: 31[0m
+[0;32mI (90712) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90722) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90722) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90732) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90762) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90762) : stm_flash (writeTask:19) Writing block: 32[0m
+[0;32mI (90762) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90772) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90772) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90782) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90812) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90822) : stm_flash (writeTask:19) Writing block: 33[0m
+[0;32mI (90822) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90822) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90822) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90832) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90872) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90872) : stm_flash (writeTask:19) Writing block: 34[0m
+[0;32mI (90872) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90872) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90882) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90882) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90922) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90922) : stm_flash (writeTask:19) Writing block: 35[0m
+[0;32mI (90922) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90922) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90932) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90932) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90972) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (90972) : stm_flash (writeTask:19) Writing block: 36[0m
+[0;32mI (90972) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (90972) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (90982) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (90982) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (91022) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (91022) : stm_flash (flashSTM:86) Reading STM32 Memory[0m
+[0;32mI (91022) : stm_flash (readTask:39) Read & Verification Task[0m
+[0;32mI (91022) : stm_flash (readTask:50) Reading block: 1[0m
+[0;32mI (91032) : stm_pro_mode (readPage:327) Reading page[0m
+[0;32mI (91032) : stm_pro_mode (cmdRead:190) READ MEMORY[0m
+[0;32mI (91042) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (91042) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[1;31mE (91072) : stm_pro_mode (readPage:354) Failure[0m
+[0;32mI (91072) : stm_flash (flashSTM:94) Ending Connection[0m
+[0;32mI (91072) : stm_pro_mode (resetSTM:80) Starting RESET Procedure[0m
+[0;32mI (91682) : stm_pro_mode (resetSTM:87) Finished RESET Procedure[0m
+[0;32mI (91682) : stm_pro_mode (endConn:97) Ending Connection[0m
+[0;32mI (91682) : stm_flash (flashSTM:97) Closing file[0m
+[1;31mE (91682) : FILE_SERVER_HTTP (flash_post_handler:444) Target flashing failed[0m
+[0;32mI (91902) FILE_SERVER_HTTP: Found file : blink_led.bin (9148 bytes)[0m
+[0;32mI (137762) : stm_pro_mode (initGPIO:75) GPIO Initialized[0m
+[0;32mI (137762) : stm_flash (flashSTM:83) Writing STM32 Memory[0m
+[0;32mI (137762) : stm_flash (writeTask:7) Write Task[0m
+[0;32mI (137762) : stm_pro_mode (resetSTM:80) Starting RESET Procedure[0m
+[0;32mI (138372) : stm_pro_mode (resetSTM:87) Finished RESET Procedure[0m
+[0;32mI (138372) : stm_pro_mode (cmdSync:113) SYNC[0m
+[0;32mI (138372) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138372) : stm_pro_mode (cmdGet:122) GET[0m
+[0;32mI (138382) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138382) : stm_pro_mode (cmdVersion:131) GET VERSION & READ PROTECTION STATUS[0m
+[0;32mI (138392) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138392) : stm_pro_mode (cmdId:140) CHECK ID[0m
+[0;32mI (138402) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138402) : stm_pro_mode (cmdErase:148) ERASE MEMORY[0m
+[1;31mE (138412) : stm_pro_mode (sendBytes:225) Sync Failure[0m
+[0;32mI (138412) : stm_pro_mode (cmdExtErase:165) EXTENDED ERASE MEMORY[0m
+[0;32mI (138422) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138442) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138452) : stm_flash (writeTask:19) Writing block: 1[0m
+[0;32mI (138452) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138452) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138462) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138462) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138502) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138502) : stm_flash (writeTask:19) Writing block: 2[0m
+[0;32mI (138502) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138502) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138512) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138512) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138552) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138552) : stm_flash (writeTask:19) Writing block: 3[0m
+[0;32mI (138552) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138552) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138562) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138562) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138602) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138602) : stm_flash (writeTask:19) Writing block: 4[0m
+[0;32mI (138602) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138602) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138612) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138612) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138652) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138652) : stm_flash (writeTask:19) Writing block: 5[0m
+[0;32mI (138652) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138662) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138662) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138672) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138702) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138702) : stm_flash (writeTask:19) Writing block: 6[0m
+[0;32mI (138702) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138712) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138712) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138722) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138752) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138762) : stm_flash (writeTask:19) Writing block: 7[0m
+[0;32mI (138762) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138762) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138772) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138772) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138812) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138812) : stm_flash (writeTask:19) Writing block: 8[0m
+[0;32mI (138812) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138812) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138822) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138822) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138862) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138862) : stm_flash (writeTask:19) Writing block: 9[0m
+[0;32mI (138862) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138862) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138872) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138872) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138912) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138912) : stm_flash (writeTask:19) Writing block: 10[0m
+[0;32mI (138912) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138912) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138922) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138932) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138962) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (138962) : stm_flash (writeTask:19) Writing block: 11[0m
+[0;32mI (138962) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (138972) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (138972) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (138982) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139012) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139022) : stm_flash (writeTask:19) Writing block: 12[0m
+[0;32mI (139022) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139022) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139022) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139032) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139072) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139072) : stm_flash (writeTask:19) Writing block: 13[0m
+[0;32mI (139072) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139072) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139082) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139082) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139122) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139122) : stm_flash (writeTask:19) Writing block: 14[0m
+[0;32mI (139122) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139122) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139132) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139132) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139172) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139172) : stm_flash (writeTask:19) Writing block: 15[0m
+[0;32mI (139172) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139172) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139182) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139192) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139222) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139222) : stm_flash (writeTask:19) Writing block: 16[0m
+[0;32mI (139222) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139232) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139232) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139242) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139272) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139272) : stm_flash (writeTask:19) Writing block: 17[0m
+[0;32mI (139282) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139282) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139282) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139292) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139332) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139332) : stm_flash (writeTask:19) Writing block: 18[0m
+[0;32mI (139332) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139332) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139342) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139342) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139382) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139382) : stm_flash (writeTask:19) Writing block: 19[0m
+[0;32mI (139382) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139382) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139392) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139392) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139432) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139432) : stm_flash (writeTask:19) Writing block: 20[0m
+[0;32mI (139432) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139432) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139442) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139442) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139482) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139482) : stm_flash (writeTask:19) Writing block: 21[0m
+[0;32mI (139482) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139492) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139492) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139502) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139532) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139532) : stm_flash (writeTask:19) Writing block: 22[0m
+[0;32mI (139532) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139542) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139542) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139552) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139592) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139592) : stm_flash (writeTask:19) Writing block: 23[0m
+[0;32mI (139592) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139592) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139602) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139602) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139642) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139642) : stm_flash (writeTask:19) Writing block: 24[0m
+[0;32mI (139642) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139642) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139652) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139652) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139692) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139692) : stm_flash (writeTask:19) Writing block: 25[0m
+[0;32mI (139692) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139692) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139702) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139702) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139742) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139742) : stm_flash (writeTask:19) Writing block: 26[0m
+[0;32mI (139742) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139742) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139752) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139762) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139792) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139792) : stm_flash (writeTask:19) Writing block: 27[0m
+[0;32mI (139792) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139802) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139802) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139812) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139842) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139852) : stm_flash (writeTask:19) Writing block: 28[0m
+[0;32mI (139852) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139852) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139852) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139862) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139902) : stm_pro_mode (flashPage:309) Flash Success[0m
+
+[0;32mI (139902) : stm_flash (writeTask:19) Writing block: 29[0m
+[0;32mI (139902) : stm_pro_mode (flashPage:279) Flashing Page[0m
+[0;32mI (139902) : stm_pro_mode (cmdWrite:182) WRITE MEMORY[0m
+[0;32mI (139912) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139912) : stm_pro_mode (sendBytes:219) Sync Success[0m
+[0;32mI (139952) : stm_pro_mode (flashPage:309) F
