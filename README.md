@@ -91,6 +91,12 @@ The primary goal is to showcase a robust custom bootloader that:
 
 ---
 
+## 📊 Flowcharts
+
+Original Flowchart: (https://github.com/uofu-emb-25/Firmware_Update_OTA-Bootloader/blob/main/Original_Flowchart.png)
+
+Updated Flowchart: (https://github.com/uofu-emb-25/Firmware_Update_OTA-Bootloader/blob/main/Updated_Flowchart.png)
+
 ## 📹 Demo Video
 
 See the live demo: 
