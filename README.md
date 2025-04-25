@@ -15,7 +15,8 @@
 4. [Software Components](#software-components)  
 5. [Usage Instructions](#usage-instructions)  
 6. [Limitations](#limitations--future-work)  
-7. [Demo Video](#demo-video)
+7. [Flowcharts](#flowcharts)
+8. [Demo Video](#demo-video)
 
 ---
 
