@@ -1,13 +1,3 @@
-# 🔄 Firmware Update via OTA Bootloader
-
-## 👥 Group Members
-
-- **Varun Krishnamurthy** – u1530331  
-- **Alex Wang** – u1545779  
-- **Tyler Allison** – u1343396
-
----
-
 ## 🛠️ Prerequisites: ESP-IDF Installation
 
 1. **Clone the ESP-IDF repository**  
