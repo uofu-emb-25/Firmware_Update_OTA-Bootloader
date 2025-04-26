@@ -93,8 +93,11 @@ The primary goal is to showcase a robust custom bootloader that:
 ---
 
 ## 📊 Flowcharts
+**ESP32 Flow**
 
 ![ESP32 OTA Bootloader Flowchart](https://raw.githubusercontent.com/uofu-emb-25/Firmware_Update_OTA-Bootloader/main/Original_Flowchart.png)
+
+**Python Flow**
 
 ![Python OTA Bootloader Flowchart](https://raw.githubusercontent.com/uofu-emb-25/Firmware_Update_OTA-Bootloader/main/Updated_Flowchart.png)
 
